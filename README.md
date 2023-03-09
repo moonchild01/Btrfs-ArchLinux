@@ -51,7 +51,7 @@ and now let's create the routine:
 
 ```bash
 sudo EDITOR=nano crontab -e
-    0 */2 * * * <namefile.sh> ---> every two hours every day
+    0 */2 * * * <$PATH/namefile.sh> ---> every two hours every day
 sudo crontab -l
 ```
 
